@@ -4,8 +4,14 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+    overflow-y:scroll;
+    overflow-x:hidden;
+  }
+
 body{
-    position: relative;
+    position :;
     width: 100vw;
     height: 100vh;
     display:flex;
@@ -14,7 +20,6 @@ body{
     /* background-color: rgb(8, 25, 54); */
     font-family: 'Varela Round', sans-serif;
     color:rgb(179, 131, 252);
-    overflow: hidden;
 }
 
 .name{
@@ -137,6 +142,18 @@ a:hover{
 
 
 #ftemp{
+    height: 10vh;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+#mintemp{
+    height: 10vh;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+#maxtemp{
     height: 10vh;
     font-size: 30px;
     width: 100%;
