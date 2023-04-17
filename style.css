@@ -6,27 +6,29 @@
 
 html {
     scroll-behavior: smooth;
-    overflow-y:scroll;
     overflow-x:hidden;
   }
 
 body{
-    position :;
+    background-size: cover;
+    position : relative ;
     width: 100vw;
     height: 100vh;
     display:flex;
     flex-direction: column;
     align-items: center;
-    /* background-color: rgb(8, 25, 54); */
     font-family: 'Varela Round', sans-serif;
     color:rgb(179, 131, 252);
 }
 
 .name{
     height: 10vh;
-    padding-top:20px;
     margin-top: 10px;
     display: flex;
+    color: rgb(255, 94, 0);
+    background-size: 40px;
+    border-radius: 12px ;   
+    padding:20px;
 }
 
 .contains{
@@ -34,8 +36,10 @@ body{
     border-radius: 0px 0px 20px 20px;
 }
 .name h1{
-    font-size: 65px;
+    font-size: 75px;
     padding-right: 10px;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 .input{
     display: flex;
@@ -95,7 +99,6 @@ body{
     width: 100%;
     font-size: 60px;
     padding-top: 10px;
-    /* margin-top: 3px; */
     text-align: center;
     background-color: rgb(8, 25, 54);
     border-radius: 20px 20px 0 0;
@@ -159,3 +162,7 @@ a:hover{
     width: 100%;
     text-align: center;
 }
+
+
+
+
