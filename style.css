@@ -18,7 +18,7 @@ body{
     flex-direction: column;
     align-items: center;
     font-family: 'Varela Round', sans-serif;
-    color:rgb(179, 131, 252);
+    color:rgb(122, 216, 16);
 }
 
 .name{
@@ -33,7 +33,7 @@ body{
 
 .contains{
     background-color: rgb(8, 25, 54);
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
 }
 .name h1{
     font-size: 75px;
@@ -42,9 +42,10 @@ body{
     -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 .input{
+    margin-top: -20px;
     display: flex;
     flex-direction: row;
-    height: 20vh;
+    height: 22vh;
     width: 30vw;
     justify-content: flex-start;
     align-items: center;
@@ -54,7 +55,7 @@ body{
     width: 30vw;
     height: 5vh;
     margin: 1vh;
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 1rem;
     text-align: center;
     color:rgb(179, 131, 252);
@@ -73,7 +74,9 @@ body{
     color: white;
 }
 #card--container{
+    margin-top: -30px;
     height: 65vh;
+    margin-right: 45px;
 }
 .result{
     display: flex;
@@ -94,20 +97,12 @@ body{
     justify-content: center;
     align-items: center;
 }
-#city{
-    height: 7vh;
-    width: 100%;
-    font-size: 60px;
-    padding-top: 10px;
-    text-align: center;
-    background-color: rgb(8, 25, 54);
-    border-radius: 20px 20px 0 0;
-}
+
 #sky{
     height: 10vh;
     font-size: 30px;
     width: 100%;
-    padding-top: 15px;
+    padding-top: 30px;
     text-align: center;
 }
 #temp{
@@ -143,6 +138,16 @@ a:hover{
     transform: scale(1.5);
 }
 
+.daytime{
+    position: relative;
+    
+    margin-left: 1200px;
+    margin-top: -75px;
+    background-color: rgb(106, 14, 0);
+    border-radius: 10px;
+    padding: 10px 10px;
+    color: rgb(255, 236, 32);
+}
 
 #ftemp{
     height: 10vh;
@@ -163,6 +168,37 @@ a:hover{
     text-align: center;
 }
 
-
-
-
+#sky:hover{
+    background-color: rgb(53, 2, 59);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+#temp:hover{
+    background-color: rgb(53, 2, 59);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+#ftemp:hover{
+    background-color: rgb(53, 2, 59);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+#mintemp:hover{
+    background-color: rgb(53, 2, 59);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+#maxtemp:hover{
+    background-color: rgb(53, 2, 59);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+#wind:hover{
+    background-color: rgb(53, 2, 59);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.daytime:hover{
+    background-color: #240176d9;
+    transition: 0.9s;
+}
