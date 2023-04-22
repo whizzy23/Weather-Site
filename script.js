@@ -59,7 +59,7 @@ function callapi(cname){
 var weatherImage = "";
 
   var imagePhoto = {
-
+    clear:"clear.jpg",
     thunder: "thunder.jpg",
     rainy: "rain.jpg",
     cloudy: "cloudy.jpg",
